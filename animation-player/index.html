@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animation Player</title>
+  <link href="./css/main.css" type="text/css" rel="stylesheet">
+  <link href="./css/frame.css" type="text/css" rel="stylesheet">
+  <link href="./css/animation.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  
+</head>
+<body>
+  <header class="header"> 
+    <div class="div--nav"></div>
+      <h1>CodeJam - Animation-player</h1>
+    <div class="div--nav1"></div>
+</header>
+    <main id="main">
+        <div class="frameBox">
+            <div class="frame">
+                <input  disabled type="button" class="counter" value="1"/>
+                <canvas class="frameCanvas" width="450" height="450"></canvas>
+                <div class="tools">
+                    <button class="copy"><i class="fas fa-copy"></i></button>
+                    <button class="del"><i class="fas fa-trash-alt"></i></button>
+                </div> 
+            </div>
+            <button class="add">Add new frame</button>
+        </div>
+        <canvas id="mainCanvas" width="450" height="450"></canvas>
+        <input type="color" class="typeColor">
+        <canvas id="animationCanvas" width="450" height="450"></canvas>
+        <div class = "fps">
+        <div class="value">1</div>
+        <input type="range" min="1" max="24" step="1" value="1">
+        </div>
+      <script src="./js/canvas.js"></script>
+      <script src="./js/animation.js"></script>
+      <script src="./js/frame.js"></script>
+
+    </main>
+</body>
+</html>

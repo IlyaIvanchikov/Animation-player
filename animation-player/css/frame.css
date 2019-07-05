@@ -1,0 +1,51 @@
+.add {
+    position: relative;
+    width: 63%;
+    height: 7%;
+    left: 19%;
+    top:20px;
+    border: solid 2px black;
+    border-radius: 50px 50px;
+    font-family: "MalagaOT-RegItalic";
+    font-size: 15px;
+    font-weight: 700;
+}
+.frameBox {
+    position: relative;
+    width: 300px;
+    height: 700px;
+    overflow-y: scroll;
+    background-color: white;
+}
+.frame {
+    position: relative;
+    display: flex;
+    width: 280px;
+    height: 180px;
+    background-color: white;
+}
+.frameCanvas {
+    background-color: grey;
+    position: relative;
+    width: 62%;
+    border: black solid 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tools {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+.counter {
+    position: relative;
+    width: 20%;
+    height: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.active {
+    background-color: red;
+}
